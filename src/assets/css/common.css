@@ -1,0 +1,199 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-size: 14px;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.text-info {
+  color: #909399;
+}
+
+.text-blue {
+  color: #409EFF;
+}
+
+.text-success {
+  color: #67C23A;
+}
+
+.text-warning {
+  color: #E6A23C;
+}
+
+.text-danger {
+  color: #F56C6C;
+}
+
+.bg-info {
+  color: #909399;
+}
+
+.bg-blue {
+  color: #409EFF;
+}
+
+.bg-success {
+  color: #67C23A;
+}
+
+.bg-warning {
+  color: #E6A23C;
+}
+
+.bg-danger {
+  color: #F56C6C;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.container-box {
+  position: relative;
+  background: #fff;
+  padding: 5px 20px 80px 20px;
+  border-radius: 10px;
+}
+
+.breadcrumb {
+  padding: 20px !important;
+  color: #262626 !important;
+}
+
+.breadcrumb .ivu-table,
+.breadcrumb .ivu-form,
+.breadcrumb a {
+  color: #262626;
+}
+
+.iv-header {
+  margin-bottom: 10px;
+}
+
+.ivu-table-wrapper {
+  margin: 10px 0;
+}
+
+.iv-search {
+  float: right;
+}
+
+.ivu-table-cell a {
+  /* margin-right: 5px; */
+}
+
+.ivu-modal-confirm-footer {
+  margin-top: 15px;
+}
+
+.iv-senior-search {
+  transition: all 0.5s;
+  /* Firefox 4 */
+  -moz-transition: all 0.5s;
+  /* Safari 和 Chrome */
+  -webkit-transition: all 0.5s;
+  /* Opera */
+  -o-transition: all 0.5s;
+  /* overflow: hidden;
+  height: 0; */
+}
+
+.iv-senior-search.open {
+  height: 80px;
+}
+
+.iv-senior-search .iv-s-item {
+  padding: 0 5px 5px 0;
+  width: 305px;
+  float: left;
+}
+
+.iv-senior-search .iv-s-label {
+  float: left;
+  line-height: 32px;
+  width: 98px;
+  text-align: right;
+}
+
+.iv-senior-search .iv-s-input {
+  float: left;
+  width: 200px;
+}
+
+.iv-senior-search .ivu-card-body {
+  display: flex;
+}
+
+.iv-senior-search .iv-s-btn {
+  flex: 0 0 220px;
+  padding-left: 10px;
+  border-left: 1px solid #e8eaec;
+  display: flex;
+  align-items: center;
+}
+
+.iv-senior-search .iv-s-btn button{
+  margin-right: 5px;
+}
+
+.user-role {
+  min-width: 1000px;
+}
+
+.iv-senior-btn {
+  float: RIGHT;
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+}
+
+.btn {
+  box-sizing: border-box;
+  padding: 0 12px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333;
+  vertical-align: middle;
+  margin-left: 1px;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.search-item {
+  width: 200px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.iv-header button {
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
